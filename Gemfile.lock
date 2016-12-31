@@ -40,7 +40,6 @@ GEM
       tzinfo (~> 1.1)
     arel (7.1.4)
     builder (3.2.2)
-    byebug (9.0.6)
     coderay (1.1.1)
     concurrent-ruby (1.0.4)
     database_cleaner (1.5.3)
@@ -155,7 +154,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  byebug
   database_cleaner
   factory_girl_rails (~> 4.0)
   faker
