@@ -49,7 +49,7 @@ RSpec.describe AuthorizeApiRequest do
         it 'raises ExceptionHandler::ExpiredSignature error' do
           expect { request_obj.call }
             .to raise_error(
-              ExceptionHandler::ExpiredSignature,
+              ExceptionHandler::InvalidToken,
               /Signature has expired/
             )
         end
