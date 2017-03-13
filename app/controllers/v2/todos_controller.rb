@@ -1,5 +1,5 @@
 class V2::TodosController < ApplicationController
   def index
-    render json: { message: 'Hello there'}
+    json_response({ message: 'Hello there'})
   end
 end
