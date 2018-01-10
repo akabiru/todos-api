@@ -20,3 +20,6 @@
 # Ignore Byebug command history file.
 .byebug_history
 .vscode/
+
+# Ignore Coveralls local results data
+coverage/
